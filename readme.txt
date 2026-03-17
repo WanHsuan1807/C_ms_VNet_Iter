@@ -1,3 +1,5 @@
+參考論文:
+Y. Zhou, H. Chen, Y. Li, Q. Liu, X. Xu, S. Wang, P. T. Yap, D. Shen, “Multi-task learning for segmentation and classification of tumors in 3D automated breast ultrasound images,” Medical Image Analysis, vol. 70, pp. 101918, 2021. https://doi.org/10.1016/j.media.2020.101918 
 訓練指令範例:
 python train.py --amp --detach_probmap --loss_on_all_iters --out_dir ./20260227_checkpoints
 python train.py --batch_size 1 --lambda_cls 0.5 --cls_on_orig --no_norm --larger_cls --out_dir ./20260228_checkpoints
